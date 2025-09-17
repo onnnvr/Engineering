@@ -657,7 +657,7 @@ header .links ul li:not(:last-child) {
       }
 
       .featured-products .product .badge {
-        font-size: 10px !important;
+        font-size: 12px !important;
         color: #666;
         margin-bottom: 10px;
         
