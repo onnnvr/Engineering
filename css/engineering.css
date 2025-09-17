@@ -615,7 +615,36 @@ header .links ul li:not(:last-child) {
         width: 100% !important;
       }
 
-  }
+      .featured-products .products-container {
+        width: calc(200px * 12) !important;
+      }
+
+      .featured-products .products-container .product {
+        width: 200px !important;
+      }
+
+      .featured-products .product .title {
+        font-size: 14px !important;
+        color: rgb(165, 26, 26);
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+
+      .featured-products .product .badge {
+        font-size: 10px !important;
+        color: #666;
+        margin-bottom: 10px;
+        
+      }
+
+      .featured-products .product .price {
+        font-size: 16px !important;
+        color: darkred;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+}
 
 .featured-products .products-container {
     width: calc(280px * 12);
