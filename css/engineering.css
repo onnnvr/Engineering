@@ -589,8 +589,9 @@ header .links ul li:not(:last-child) {
     width: 100%;
     display: block;
     place-items: center;
-    margin: 0 0 40px 0;
+    padding: 0 0 40px 0;
     overflow: hidden;
+    background-color: #f6f6f6
 }
 
 
@@ -601,6 +602,7 @@ header .links ul li:not(:last-child) {
     font-weight: 800;
     margin: 0;
     padding: 40px 0;
+    opacity: 0.8;
 
 }
 
