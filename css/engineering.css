@@ -664,7 +664,7 @@ header .links ul li:not(:last-child) {
       }
 
       .featured-products .product .price {
-        font-size: 16px !important;
+        font-size: 18px !important;
         color: darkred;
         font-weight: bold;
         margin-bottom: 15px;
