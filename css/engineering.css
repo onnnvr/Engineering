@@ -617,6 +617,7 @@ header .links ul li:not(:last-child) {
 
       .featured-products .products-container {
         width: calc(200px * 12) !important;
+        animation: scroll 30s linear infinite !important;
       }
 
       .featured-products .products-container .product {
