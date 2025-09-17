@@ -240,11 +240,14 @@ header .links ul li:not(:last-child) {
 
 }
 
+.products {
+  
+}
+
 .products .container{
   display: flex;
   flex-direction: row-reverse;
   align-items: flex-start;
-
 }
 
 .products-types {
@@ -297,6 +300,8 @@ header .links ul li:not(:last-child) {
   padding: 20px; /* مسافة داخلية */
   list-style: none; /* إزالة النقاط */
   direction: rtl;
+  background-color: #f6f6f652;
+  border-radius: 10px;
 }
 
 /* تنسيق العناصر داخل القائمة */
