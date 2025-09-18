@@ -641,7 +641,7 @@ header .links ul li:not(:last-child) {
       }
 
       .featured-products .products-container {
-        width: calc(200px * 12) !important;
+        width: calc(200px * 16) !important;
         animation: scroll 30s linear infinite !important;
       }
 
@@ -651,29 +651,21 @@ header .links ul li:not(:last-child) {
 
       .featured-products .product .title {
         font-size: 16px !important;
-        color: black;
-        margin-bottom: 10px;
-        font-weight: 500;
       }
 
       .featured-products .product .badge {
         font-size: 12px !important;
-        color: #666;
-        margin-bottom: 10px;
         
       }
 
       .featured-products .product .price {
         font-size: 18px !important;
-        color: darkred;
-        font-weight: bold;
-        margin-bottom: 15px;
       }
 
 }
 
 .featured-products .products-container {
-    width: calc(280px * 12);
+    width: calc(280px * 16);
     display: flex;
     animation: scroll 50s linear infinite;
     
@@ -691,7 +683,7 @@ header .links ul li:not(:last-child) {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-250px * 6));
+        transform: translateX(calc(-280px * 8));
     }
 }
 
@@ -705,6 +697,7 @@ header .links ul li:not(:last-child) {
     margin: 0 10px;
     width: 280px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    margin-bottom: auto;
 
     /*
     height: 250px;
@@ -729,6 +722,7 @@ header .links ul li:not(:last-child) {
 .featured-products .product .title {
   font-size: 22px;
   color: black;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 500;
 }
