@@ -238,6 +238,14 @@ header .links ul li:not(:last-child) {
 
 }
 
+.links .menu {
+    display: none;
+}
+
+.links .icon:focus + .menu {
+    display: block;
+}
+
 }
 
 
