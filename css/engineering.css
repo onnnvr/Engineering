@@ -238,13 +238,18 @@ header .links ul li:not(:last-child) {
 
 }
 
-.links .menu {
+#menu-toggle {
     display: none;
 }
 
-.links .icon:focus + .menu {
+header .links .menu {
+    display: none;
+}
+
+#menu-toggle:checked + .menu {
     display: block;
 }
+
 
 }
 
