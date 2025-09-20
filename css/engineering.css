@@ -515,6 +515,8 @@ header .links .menu {
         overflow: hidden; /* إخفاء المحتوى الزائد */
         transition: max-height 0.3s ease-out; /* إضافة انتقال سلس */
         background-color: white; /* إضافة خلفية بيضاء */
+        overflow-y: scroll;
+        max-height: 70vh;
     }
 
     .products-types-mobile[open] ul {
